@@ -1,0 +1,6 @@
+﻿services:
+  apbd_5:
+    image: apbd_5
+    build:
+      context: .
+      dockerfile: APBD_5/Dockerfile

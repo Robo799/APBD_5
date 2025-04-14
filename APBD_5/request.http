@@ -1,0 +1,45 @@
+﻿### Add animal
+POST http://localhost:5194/api/animals
+Content-Type: application/json
+
+{
+  "name": "Bella",
+  "category": "Dog",
+  "weight": 20.0,
+  "furColor": "Black"
+}
+
+### Add animal
+POST http://localhost:5194/api/animals
+Content-Type: application/json
+
+{
+  "name": "Mittens",
+  "category": "Cat",
+  "weight": 4.5,
+  "furColor": "White"
+}
+
+### Add animal
+POST http://localhost:5194/api/animals
+Content-Type: application/json
+
+{
+  "name": "Charlie",
+  "category": "Dog",
+  "weight": 18.7,
+  "furColor": "Golden"
+}
+
+### Get all animals
+GET http://localhost:5194/api/animals
+
+### Add visit
+POST http://localhost:5194/api/animals/1/visits
+Content-Type: application/json
+
+{
+  "date": "2025-04-14T12:00:00",
+  "description": "Vaccination",
+  "price": 45.0
+}
